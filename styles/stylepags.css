@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    header {background-color: #5C8BAF;
+    display: block;
+    height: 67px;
+    border-radius: 20px 20px;
+    }
+    header img {
+        height: 55px;
+        border-radius: 20px;}
+        body{background-color: #C3DBEE;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            align-items: center;
+            padding: 4px;
+            margin: 10px 10px 15px 10px;
+            height: 70px;}
+            a {
+                color: #000000;
+                font-size: 23px;
+                text-decoration: none;}
+                h1 {
+                    font-family:'Times New Roman', Times, serif;
+                    text-align: center;
+                    margin: 70px 80px;
+                    font-style: italic;
+                    font-size: 45px;
+                }
+                .imagem1 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                }
+                .imagem1 img{
+                    height: 350px;
+                    margin: 40px ;
+                }
+                p{ 
+                margin: 30px 50px;
+                font-size: 20px;
+                font-style: normal;
+                font-family: sans-serif;
+                }
+                h4 {
+                    text-align: center;
+                    font-size: 39px;
+                    margin: 40px;
+                }
+                .video {
+                    display: flex;
+                justify-content: center;
+                
+                }
+                footer {
+                    background-color: #5C8BAF;
+                    height: 60px;
+                    margin: 100px 0px 0px 0px;
+                    display: flexbox ;
+                    text-align: center;}
+                    h3{
+                    font-family: 'Times New Roman', Times, serif;
+                    text-align: right;
+                    margin: 20px 20px;
+                    }
+                    .botao { 
+                        padding: 10px 40px;
+                        width: 50px;
+                        color: rgb(255, 255, 255);
+                        background: #193850;
+                        border: 1px solid #1b1414;
+                        border-radius: 70px;
+                        text-align: center;
+                        user-select: none;
+                        cursor: pointer;
+                        display: inline;
+                        position: relative;
+                        top: 80px;
+                        left: 78%;
+                        list-style-type: none;
+                        text-decoration: none;
+
+                       }
+                       .botao:hover {
+                        background: #899197;
+                        transition: background 2s;
+                       }
